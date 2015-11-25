@@ -130,6 +130,26 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="has_vcards (v1.1.1, /home/chudu24/Working/Git/RoR/has_vcards) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../has_vcards/db" />
+          <root url="file://$MODULE_DIR$/../has_vcards/app" />
+          <root url="file://$MODULE_DIR$/../has_vcards/bin" />
+          <root url="file://$MODULE_DIR$/../has_vcards/lib" />
+          <root url="file://$MODULE_DIR$/../has_vcards/.idea" />
+          <root url="file://$MODULE_DIR$/../has_vcards/config" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../has_vcards/db" />
+          <root url="file://$MODULE_DIR$/../has_vcards/app" />
+          <root url="file://$MODULE_DIR$/../has_vcards/bin" />
+          <root url="file://$MODULE_DIR$/../has_vcards/lib" />
+          <root url="file://$MODULE_DIR$/../has_vcards/.idea" />
+          <root url="file://$MODULE_DIR$/../has_vcards/config" />
+        </SOURCES>
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="accept_values_for (v0.7.2, rbenv: 2.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v3.2.22, rbenv: 2.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v3.2.22, rbenv: 2.2.2) [gem]" level="application" />
@@ -151,7 +171,6 @@
     <orderEntry type="library" scope="PROVIDED" name="haml (v4.0.6, rbenv: 2.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="has_accounts (v3.0.0.beta2, rbenv: 2.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="has_scope (v0.6.0, rbenv: 2.2.2) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="has_vcards (v1.1.1, rbenv: 2.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, rbenv: 2.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.7.0, rbenv: 2.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n_rails_helpers (v2.0.0, rbenv: 2.2.2) [gem]" level="application" />
