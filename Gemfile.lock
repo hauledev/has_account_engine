@@ -13,6 +13,16 @@ PATH
       simple_form
       validates_timeliness
 
+PATH
+  remote: ../has_vcards
+  specs:
+    has_vcards (1.1.1)
+      haml
+      i18n_rails_helpers
+      inherited_resources
+      rails (> 3.2.0)
+      simple_form
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -75,12 +85,6 @@ GEM
     has_scope (0.6.0)
       actionpack (>= 3.2, < 5)
       activesupport (>= 3.2, < 5)
-    has_vcards (1.1.1)
-      haml
-      i18n_rails_helpers
-      inherited_resources
-      rails (> 3.2.0)
-      simple_form
     hike (1.2.3)
     i18n (0.7.0)
     i18n_rails_helpers (2.0.0)
@@ -192,7 +196,7 @@ DEPENDENCIES
   haml
   has_accounts_engine!
   has_scope
-  has_vcards
+  has_vcards!
   i18n_rails_helpers
   inherited_resources
   rspec
