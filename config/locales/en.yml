@@ -19,10 +19,10 @@ en:
         title:          Title
       booking:
         code:           Booking no.
-        value_date:     Value Date
-        title:          Title
+        value_date:     Ngày
+        title:          Tiêu đề
         amount:         Amount
-        comments:       Remarks
+        comments:       Nhận xét
         credit_account: Credit
         debit_account:  Debit
         reference:      Reference
@@ -35,6 +35,7 @@ en:
         destroy:        Delete
         valuta:         Valuta
         value:          Amount
+        reservationnumber: Reservation_Number
       booking_template:
         amount_relates_to: Relativ to
         charge_rate_code:  Charge Rate

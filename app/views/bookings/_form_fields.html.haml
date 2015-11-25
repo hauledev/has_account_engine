@@ -17,12 +17,12 @@
     = f.association :credit_account, :collection => accounts_as_collection(Account.all), :as => :combobox
 
 .row-fluid
-  .span12
-    = f.input :comments, :input_html => {:rows => 4, :class => 'span12'}
+  .span6
+    = f.input :reservationnumber
 
 .row-fluid
   .span12
-    = f.input :reservationnumber
+    = f.input :comments, :input_html => {:rows => 4, :class => 'span12'}
 
 .row-fluid
   .span12
