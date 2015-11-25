@@ -22,6 +22,10 @@
 
 .row-fluid
   .span12
+    = f.input :reservationnumber
+
+.row-fluid
+  .span12
     = f.input :reference_type, :as => :hidden, :input_html => {:value => 'Invoice'}
     = f.association :reference, :collection => suggested_invoices_for_booking(resource, :include_all => true), :as => :combobox, :include_blank => true
 
